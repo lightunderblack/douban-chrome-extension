@@ -1,0 +1,27 @@
+#db-isay .isay-links .active a {
+	color: green !important;
+}
+
+.go-to-page {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	border-color: #EDEDED;
+	box-shadow: none;
+	outline: none;
+}
+
+.filter-name-list {
+	color: #666;
+	width: 100%;
+	display: block;
+	padding: 5px 2px;
+	margin-bottom: 20px;
+	border-color: #DDD;
+}
+
+.filter-name-list:active, .filter-name-list:focus, .filter-name-list:focus-visible{
+	outline: none !important;
+	border-color: #DDD;
+}
